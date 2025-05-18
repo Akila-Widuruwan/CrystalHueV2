@@ -121,7 +121,7 @@
                         createOrder: function(data, actions) {
                             const cart = JSON.parse(localStorage.getItem('projector_cart_sync')) || {};
                             const quantity = cart['hy300-pro-plus'] || 0;
-                            const total = (399.99 * quantity).toFixed(2);
+                            const total = (1 * quantity).toFixed(2);
                             
                             return actions.order.create({
                                 purchase_units: [{
