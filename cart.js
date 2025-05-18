@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const CART_KEY = 'projector_cart_sync';
     const PRODUCT_ID = 'hy300-pro-plus';
-    const PRODUCT_PRICE = 399.99;
+    const PRODUCT_PRICE = 1;
 
     // Get cart from localStorage
     function getCart() {
